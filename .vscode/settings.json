@@ -1,0 +1,98 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "window.nativeTabs": true,
+  "window.titleBarStyle": "native",
+  "prettier.prettierPath": "./.prettierrc.json",
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.formatOnSave": true,
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "editor.formatOnSave": true,
+  "editor.wordWrapColumn": 80,
+  "editor.insertSpaces": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.autoIndent": "full",
+  "editor.detectIndentation": true,
+  "editor.tabSize": 4,
+  "editor.codeLens": true,
+  "editor.rulers": [72, 80],
+  "vetur.useWorkspaceDependencies": true,
+  "vetur.completion.tagCasing": "kebab",
+  "vetur.completion.autoImport": true,
+  "vetur.format.options.tabSize": 4,
+  "vetur.format.options.useTabs": false,
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    }
+  },
+  "vim.textwidth": 80,
+  "vim.autoindent": true,
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": ["#8fbcbb", "#434c5e"],
+  "vim.easymotion": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.leader": ",",
+  "eslint.validate": ["javascript", "typescript", "vue"],
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f",
+    "statusBar.foreground": "#434c5e",
+    "statusBar.debuggingForeground": "#434c5e"
+  },
+  "typescript.referencesCodeLens.enabled": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "[proto3]": {
+    "editor.formatOnSave": true
+  },
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  }
+}
